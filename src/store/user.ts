@@ -7,6 +7,7 @@ export const useUserStore = defineStore({
       names: "张三",
     };
   },
+  //通过acitions去改变参数，同时也可以在actions中使用异步操作
   actions: {
     updateName(names: string) {
       this.names = names;

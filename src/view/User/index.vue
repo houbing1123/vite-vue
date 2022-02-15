@@ -7,7 +7,6 @@ export default defineComponent({
   props: {},
   setup() {
     const userStore = useUserStore();
-    console.log(userStore);
     const saveHandle = (e: any) => {
       userStore.updateName(e.target.value);
       e.target.value = "";

@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import { constantRouterMap } from "./router.config";
 import Nprogress from "nprogress";
+import "nprogress/nprogress.css";
 const router = createRouter({
   history: createWebHistory(),
   routes: constantRouterMap,

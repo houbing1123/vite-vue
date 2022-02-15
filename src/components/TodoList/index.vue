@@ -6,3 +6,6 @@
 import List from "../TodoList/List.vue";
 import Todo from "../TodoList/Todo.vue";
 </script>
+<script lang="ts">
+export default {};
+</script>
